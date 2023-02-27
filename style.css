@@ -23,8 +23,10 @@ li {
 
 a {
     display: block;
+    color: black;
     padding: 8px;
     text-decoration: none;
+    text-decoration-color: black;
 }
 
 li:hover {
