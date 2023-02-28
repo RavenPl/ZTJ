@@ -39,7 +39,7 @@ main {
     background-color: lightgrey;
 }
 
-body > footer {
+main + footer {
     padding: 10px 0;
     text-align: center;
     background-color: lavender;
