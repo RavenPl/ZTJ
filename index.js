@@ -16,16 +16,16 @@ const calculator = (firstNumber, secondNumber, operator) => {
         !allowedOperators.includes(operator)
     ) {
         alert('Podałeś nieprawidłową cyfrę lub operator!');
-        return
+        return;
     }
 
     result = calc(parsedFirstNumber, parsedSecondNumber, operator);
 
     if (result) {
-        const again = prompt('Jeśli chcesz kontynuować to wybierz operator');
-        if (allowedOperators.includes(again)) {
+        const anotherOperator = prompt('Jeśli chcesz kontynuować to wybierz operator');
+        if (allowedOperators.includes(anotherOperator)) {
             secondNumber = prompt(`Podaj kolejną liczbę! Aktualny wynik to: ${result}`);
-            calculator(result, secondNumber, again);
+            calculator(result, secondNumber, anotherOperator);
         } else {
             alert(`Końcowy wynik to: ${result}!`)
         }
