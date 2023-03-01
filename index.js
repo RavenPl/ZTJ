@@ -1,5 +1,5 @@
 const firstNumber = prompt('Podaj pierwszą liczbę!');
-const operator = prompt('Podaj rodzaj działania: +, -, *, :, %');
+const operator = prompt('Podaj rodzaj działania: +, -, *, /, %');
 const secondNumber = prompt('Podaj drugą liczbę!');
 const allowedOperators = ['+', '-', '*', '/', '%'];
 
