@@ -1,41 +1,34 @@
-const firstNumber = prompt('Podaj pierwszą liczbę!');
+let firstNumber = prompt('Podaj pierwszą liczbę!');
 const operator = prompt('Podaj rodzaj działania: +, -, *, :, %');
-const secondNumber = prompt('Podaj drugą liczbę!');
+let secondNumber = prompt('Podaj drugą liczbę!');
 const allowedOperators = ['+', '-', '*', '/', '%'];
+let result;
 
+const calculator = (firstNumber, secondNumber, operator) => {
+    const parsedFirstNumber = Number([...firstNumber].map(letter => letter === "," ? "." : letter).join(''));
+    const parsedSecondNumber = Number([...secondNumber].map(letter => letter === "," ? "." : letter).join(''));
 
-const calc = (firstNumber, secondNumber, operator) => {
-    const parsedFirstNumber = Number(firstNumber);
-    const parsedSecondNumber = Number(secondNumber);
-
-    if (isNaN(parsedFirstNumber) || isNaN(parsedSecondNumber) ||
-        !firstNumber || !secondNumber || !allowedOperators.includes(operator)) {
+    if (
+        isNaN(parsedFirstNumber) ||
+        isNaN(parsedSecondNumber) ||
+        !firstNumber ||
+        !secondNumber ||
+        !allowedOperators.includes(operator)
+    ) {
         alert('Podałeś nieprawidłową cyfrę lub operator!');
         return
     }
 
-    switch (operator) {
-        case "+" :
-            alert(`Wynik: ${(parsedFirstNumber + parsedSecondNumber).toFixed(2)}`);
-            break
-        case "-" :
-            alert(`Wynik: ${parsedFirstNumber - parsedSecondNumber}`);
-            break
-        case "*" :
-            alert(`Wynik: ${(parsedFirstNumber * parsedSecondNumber).toFixed(2)}`);
-            break
-        case "%" :
-            alert(`Wynik: ${parsedFirstNumber % parsedSecondNumber}`);
-            break
-        case "/" :
-            if (!parsedSecondNumber) {
-                alert('Nie można dzielić przez 0!');
-                break
-            }
-            alert(`Wynik: ${(parsedFirstNumber / parsedSecondNumber).toFixed(2)}`);
-            break
+    result = calc(parsedFirstNumber, parsedSecondNumber, operator);
+
+    if (result) {
+        const again = prompt('Jeśli chcesz kontynuować to wybierz operator');
+        if (allowedOperators.includes(again)) {
+            secondNumber = prompt(`Podaj kolejną liczbę! Aktualny wynik to: ${result}`);
+            calculator(result, secondNumber, again);
+        } else {
+            alert(`Końcowy wynik to: ${result}!`)
+        }
     }
-
 }
-
-calc(firstNumber, secondNumber, operator);
+calculator(firstNumber, secondNumber, operator);
