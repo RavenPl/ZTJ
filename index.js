@@ -1,21 +1,41 @@
-if (confirm('Chcesz zostać programistą?')) {
+const firstNumber = prompt('Podaj pierwszą liczbę!');
+const operator = prompt('Podaj rodzaj działania: +, -, *, :, %');
+const secondNumber = prompt('Podaj drugą liczbę!');
+const allowedOperators = ['+', '-', '*', '/', '%'];
 
-    const answer = prompt('Super! Ile czasu poświęcasz dziennie na naukę?');
-    if (isNaN(Number(answer)) || answer === "") {
-        alert('Proszę o wpisywanie cyfr!');
-    } else {
-        if (answer > 5) {
-            alert('Super! Widać, że ci zależy!');
-        } else if (answer > 0 && answer <= 5) {
-            alert('Jest ok, chociaż możesz jeszcze przycisnąć!');
-        } else if (Number(answer) === 0) {
-            alert('W końcu musisz zacząć!');
-        } else {
-            alert('Jak to minusowe godziny?!');
-        }
+
+const calc = (firstNumber, secondNumber, operator) => {
+    const parsedFirstNumber = Number(firstNumber);
+    const parsedSecondNumber = Number(secondNumber);
+
+    if (isNaN(parsedFirstNumber) || isNaN(parsedSecondNumber) ||
+        !firstNumber || !secondNumber || !allowedOperators.includes(operator)) {
+        alert('Podałeś nieprawidłową cyfrę lub operator!');
+        return
     }
-} else {
-    confirm('Szkoda, może jeszcze do nas wrócisz?')
-        ? alert('Super! Czekamy na Ciebie!')
-        : alert(':(')
+
+    switch (operator) {
+        case "+" :
+            alert(`Wynik: ${(parsedFirstNumber + parsedSecondNumber).toFixed(2)}`);
+            break
+        case "-" :
+            alert(`Wynik: ${parsedFirstNumber - parsedSecondNumber}`);
+            break
+        case "*" :
+            alert(`Wynik: ${(parsedFirstNumber * parsedSecondNumber).toFixed(2)}`);
+            break
+        case "%" :
+            alert(`Wynik: ${parsedFirstNumber % parsedSecondNumber}`);
+            break
+        case "/" :
+            if (!parsedSecondNumber) {
+                alert('Nie można dzielić przez 0!');
+                break
+            }
+            alert(`Wynik: ${(parsedFirstNumber / parsedSecondNumber).toFixed(2)}`);
+            break
+    }
+
 }
+
+calc(firstNumber, secondNumber, operator);
