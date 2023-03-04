@@ -52,19 +52,6 @@ const twoPlayersMode = (e, i) => {
 
 }
 
-
-const createRestartBtn = () => {
-    const newBtn = document.createElement('button');
-    newBtn.textContent = "Play again!";
-    newBtn.classList.add('restart');
-    document.querySelector('body').appendChild(newBtn);
-    newBtn.addEventListener('click', (e) => {
-        newBtn.remove();
-        location.reload();
-    })
-}
-
-
 const aiMove = (id) => {
 
     aiSetup(playerTwoPicks, selectedBoxes, id);

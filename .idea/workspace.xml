@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2c34dbea-661a-447e-a7b4-de5a4b97196f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="f102-egzamin" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="2MJoRFZzHIUhr66wbcmIXtDT07T" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="Push.Settings">
+    <option name="SHOW_DETAILS_PANEL" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2c34dbea-661a-447e-a7b4-de5a4b97196f" name="Default Changelist" comment="" />
+      <created>1677495037537</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677495037537</updated>
+      <workItem from="1677495039406" duration="13570000" />
+      <workItem from="1677579111793" duration="1486000" />
+      <workItem from="1677597906164" duration="1407000" />
+      <workItem from="1677674397043" duration="27672000" />
+      <workItem from="1677749871518" duration="198000" />
+      <workItem from="1677850897298" duration="16128000" />
+      <workItem from="1677870093089" duration="6051000" />
+      <workItem from="1677880138203" duration="7684000" />
+      <workItem from="1677914963995" duration="461000" />
+      <workItem from="1677938552151" duration="13089000" />
+    </task>
+    <task id="LOCAL-00001" summary="git init">
+      <created>1677534639694</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677534639694</updated>
+    </task>
+    <task id="LOCAL-00002" summary="task completed">
+      <created>1677535428286</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677535428286</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added bookmarks pages">
+      <created>1677539805438</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677539805438</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fixed bookmarks links">
+      <created>1677541261341</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677541261341</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fixed css selector">
+      <created>1677598997162</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677598997162</updated>
+    </task>
+    <task id="LOCAL-00006" summary="git init">
+      <created>1677676122512</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677676122512</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added contenteditable attributes">
+      <created>1677676342316</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677676342316</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Zadanie 1">
+      <created>1677689352077</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677689352077</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Zadanie 2">
+      <created>1677690274925</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677690274925</updated>
+    </task>
+    <task id="LOCAL-00010" summary="initial commit">
+      <created>1677705257193</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1677705257193</updated>
+    </task>
+    <task id="LOCAL-00011" summary="clean up code">
+      <created>1677711786868</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1677711786868</updated>
+    </task>
+    <task id="LOCAL-00012" summary="create logic for 2 players mode">
+      <created>1677870892500</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1677870892500</updated>
+    </task>
+    <task id="LOCAL-00013" summary="refactoring">
+      <created>1677952416319</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1677952416319</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="task completed" />
+    <MESSAGE value="added bookmarks pages" />
+    <MESSAGE value="fixed bookmarks links" />
+    <MESSAGE value="fixed css selector" />
+    <MESSAGE value="git init" />
+    <MESSAGE value="Added contenteditable attributes" />
+    <MESSAGE value="Zadanie 1" />
+    <MESSAGE value="Zadanie 2" />
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="clean up code" />
+    <MESSAGE value="create logic for 2 players mode" />
+    <MESSAGE value="refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+</project>
