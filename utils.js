@@ -30,6 +30,9 @@ const twoPlayersModeLogic = (playerOne, playerTwo, text, id, e, playerPicks, all
 
 const onePlayerSetup = (text, playerPicks, allPicks, id, e) => {
 
+    const waitingDiv = document.createElement('div');
+    waitingDiv.classList.add('waiting');
+    document.querySelector('body').appendChild(waitingDiv);
     const newBox = document.createElement('div');
     newBox.classList.add('checked');
     newBox.textContent = text;

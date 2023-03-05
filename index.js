@@ -39,6 +39,7 @@ const onePlayerMode = (e, i) => {
             const idAi = generateAiPick(selectedBoxes);
             aiMove(idAi);
             document.body.style.cursor = "pointer";
+            document.querySelector('.waiting').remove();
         }, 1500)
     }
 
