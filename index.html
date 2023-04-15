@@ -9,106 +9,46 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
-<div class="gallery">
-    <img alt=""
-         id="first"
-         src="https://media.discordapp.net/attachments/1072143273336000564/1073318021822693436/CleanShot_2023-02-09_at_19.59.15.png?width=1083&height=609">
-    <img alt="" id="second"
-         src="https://media.discordapp.net/attachments/1072143273336000564/1073318022242107463/CleanShot_2023-02-09_at_20.00.07.png?width=1083&height=609">
-    <img alt=""
-         id="third"
-         src="https://media.discordapp.net/attachments/1072143273336000564/1073318022669930577/CleanShot_2023-02-09_at_20.00.33.png?width=1083&height=609">
-    <img alt=""
-         id="fourth"
-         src="https://media.discordapp.net/attachments/1072143273336000564/1073318023202619512/CleanShot_2023-02-09_at_20.00.51.png?width=1085&height=609">
-    <img alt=""
-         id="fifth"
-         src="https://media.discordapp.net/attachments/1072143273336000564/1073318023840141352/CleanShot_2023-02-09_at_20.01.06.png?width=1082&height=609">
-    <img alt=""
-         id="sixth"
-         src="https://media.discordapp.net/attachments/1072143273336000564/1073318024175698041/CleanShot_2023-02-09_at_20.01.21.png?width=1083&height=608">
-    <img alt=""
-         id="seventh"
-         src="https://media.discordapp.net/attachments/1072143273336000564/1073318024528003132/CleanShot_2023-02-09_at_20.01.35.png?width=1085&height=609">
-    <img alt="" id="eight"
-         src="https://media.discordapp.net/attachments/1072143273336000564/1073318025027129394/CleanShot_2023-02-09_at_20.01.54.png?width=1081&height=609">
-    <img alt="" id="ninth"
-         src="https://media.discordapp.net/attachments/1072143273336000564/1073318025501081701/CleanShot_2023-02-09_at_20.02.10.png?width=1085&height=609">
-    <img alt="" id="tenth"
-         src="https://media.discordapp.net/attachments/1072143273336000564/1073318026000207913/CleanShot_2023-02-09_at_20.02.24.png?width=1086&height=609">
-
-    <div class="navigator">
-
-        <div>
-            <a href="#first">
-                <img alt=""
-                     src="https://media.discordapp.net/attachments/1072143273336000564/1073318021822693436/CleanShot_2023-02-09_at_19.59.15.png?width=1083&height=609">
-            </a>
-        </div>
-
-        <div>
-            <a href="#second">
-                <img alt=""
-                     src="https://media.discordapp.net/attachments/1072143273336000564/1073318022242107463/CleanShot_2023-02-09_at_20.00.07.png?width=1083&height=609">
-            </a>
-        </div>
-
-        <div>
-            <a href="#third">
-                <img alt=""
-                     src="https://media.discordapp.net/attachments/1072143273336000564/1073318022669930577/CleanShot_2023-02-09_at_20.00.33.png?width=1083&height=609">
-            </a>
-        </div>
-
-        <div>
-            <a href="#fourth">
-                <img alt=""
-                     src="https://media.discordapp.net/attachments/1072143273336000564/1073318023202619512/CleanShot_2023-02-09_at_20.00.51.png?width=1085&height=609">
-            </a>
-        </div>
-
-        <div>
-            <a href="#fifth">
-                <img alt=""
-                     src="https://media.discordapp.net/attachments/1072143273336000564/1073318023840141352/CleanShot_2023-02-09_at_20.01.06.png?width=1082&height=609">
-            </a>
-        </div>
-
-        <div>
-            <a href="#sixth">
-                <img alt=""
-                     src="https://media.discordapp.net/attachments/1072143273336000564/1073318024175698041/CleanShot_2023-02-09_at_20.01.21.png?width=1083&height=608">
-            </a>
-        </div>
-
-        <div>
-            <a href="#seventh">
-                <img alt=""
-                     src="https://media.discordapp.net/attachments/1072143273336000564/1073318024528003132/CleanShot_2023-02-09_at_20.01.35.png?width=1085&height=609">
-            </a>
-        </div>
-
-        <div>
-            <a href="#eight">
-                <img alt=""
-                     src="https://media.discordapp.net/attachments/1072143273336000564/1073318025027129394/CleanShot_2023-02-09_at_20.01.54.png?width=1081&height=609">
-            </a>
-        </div>
-
-        <div>
-            <a href="#ninth">
-                <img alt=""
-                     src="https://media.discordapp.net/attachments/1072143273336000564/1073318025501081701/CleanShot_2023-02-09_at_20.02.10.png?width=1085&height=609">
-            </a>
-        </div>
-
-        <div>
-            <a href="#tenth">
-                <img alt=""
-                     src="https://media.discordapp.net/attachments/1072143273336000564/1073318026000207913/CleanShot_2023-02-09_at_20.02.24.png?width=1086&height=609">
-            </a>
-        </div>
+<form name="register">
+    <h1>Rejestracja</h1>
+    <div>
+        <label for="name">Imię:
+            <input id="name" name="name" type="text">
+        </label>
     </div>
-</div>
+
+    <div>
+        <label for="lastname">Nazwisko:
+            <input id="lastname" name="lastname" type="text">
+        </label>
+    </div>
+    <div>Płeć:
+        <label for="man">Mężczyzna
+            <input id="man" name="gender" type="radio">
+        </label>
+        <label for="woman">Kobieta
+            <input id="woman" name="gender" type="radio">
+        </label>
+    </div>
+    <div>
+        <label for="login">Login:
+            <input id="login" name="login" type="text">
+        </label>
+    </div>
+    <div>
+
+        <label for="password">Hasło:
+            <input id="password" name="password" type="password">
+        </label>
+    </div>
+    <div>
+        <label for="date">Data urodzenia:
+            <input id="date" name="date" type="date">
+        </label>
+    </div>
+    <button type="submit">Wyślij</button>
+
+</form>
+<script src="script.js"></script>
 </body>
 </html>
