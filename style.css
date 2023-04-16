@@ -16,18 +16,32 @@ h1 {
 
 form {
     display: flex;
-    width: 400px;
-    align-content: center;
+    width: 300px;
+    align-items: flex-start;
     flex-direction: column;
     gap: 15px;
 }
 
-p {
+button {
 
-    font-size: 12px;
+
+    width: 20%;
 }
 
-p::after {
-    content: "<p>ada</p>";
-    color: green;
+p {
+    text-align: center;
+    color: red;
+}
+
+p {
+    font-size: 12px;
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.not-valid {
+    background-color: lightcoral;
 }
