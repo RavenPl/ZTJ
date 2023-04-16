@@ -12,6 +12,7 @@ body {
 
 h1 {
     margin-bottom: 15px;
+    align-self: center;
 }
 
 form {
@@ -23,19 +24,29 @@ form {
 }
 
 button {
-
-
     width: 20%;
+    align-self: center;
 }
 
 p {
+    margin-top: 5px;
+    font-size: 12px;
+    display: none;
+    flex-basis: 100%;
     text-align: center;
     color: red;
 }
 
-p {
-    font-size: 12px;
-    display: none;
+div {
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+label {
+    width: 30%;
 }
 
 .show {
