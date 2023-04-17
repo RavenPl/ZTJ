@@ -1,12 +1,13 @@
-const form = document.querySelector("form");
-const name = document.querySelector(`[name = name]`);
-const lastname = document.querySelector(`[name = lastname]`);
-const gender = document.querySelectorAll(`[name = gender]`);
-const login = document.querySelector(`[name = login]`);
-const password = document.querySelector(`[name = password]`);
-const date = document.querySelector(`[name = date]`);
+const form = document.forms.namedItem("register");
+const name = form.elements.namedItem("name");
+const lastname = form.elements.namedItem("lastname");
+const gender = form.elements.namedItem("gender");
+const login = form.elements.namedItem("login");
+const password = form.elements.namedItem("password");
+const date = form.elements.namedItem("date");
 
 const validation = () => {
+
     const formData = {
         name: name.value,
         lastname: lastname.value,
